@@ -8,6 +8,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* shared style */
+.secondary-bg{
+    background-color: #fff8f3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -49,6 +53,15 @@ nav li a {
 .dark2{
     color: #474747;
 }
+.section-title{
+    font-size: 35px;
+    color: #181818;
+
+}
+.section-des{
+    font-size: 18px;
+    color: #757575;
+}
 nav ul {
     display: flex;
     align-items: center;
@@ -75,4 +88,21 @@ nav ul {
 .banner-picture{
     width: 580px;
 
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
